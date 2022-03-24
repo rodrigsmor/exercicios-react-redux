@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Field from './field'
+import ClassComponent from './classComponent';
+
 
 ReactDOM.render(
     <div>
-        <Field initial={''}/>
+        <ClassComponent label={'contador'} initialValue={10}/>
     </div>,
     document.getElementById('app')
 )
